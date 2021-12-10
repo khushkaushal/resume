@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "/analytics", to: "projects#analytics"
   get "/mdss", to: "projects#mdss"
   get "/mechanic", to: "projects#mechanic"
+  get "/resume", to: "about#pdf"
 end

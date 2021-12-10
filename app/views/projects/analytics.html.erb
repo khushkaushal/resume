@@ -16,7 +16,7 @@
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-dark">Resume</a>
+            <a class="button is-dark" href="/resume" target="_blank">Resume</a>
             <a class="button is-link" href="https://www.linkedin.com/in/khushkaushal/" target="_blank">LinkedIn</a>
             <a class="button is-link" href="https://github.com/khushkaushal" target="_blank">Github</a>
             <a class="button is-link" href="mailto:khush.kaushal@email.kpu.ca">E-mail</a>
@@ -30,7 +30,7 @@
 <section class="hero is-info">
   <div class="hero-body">
     <p class="title">
-      <b>Projects</b>
+      <b>Analytics</b>
     </p>
   </div>
 </section>
@@ -38,21 +38,22 @@
 <section class="hero is-link is-fullheight-with-navbar">
   <div class="hero-body">
   <div class="tile is-ancestor">
-  <div class="tile is-parent">
+  <div class="tile is-4 is-vertical is-parent">
     <div class="tile is-child box">
-      <p class="title has-text-link">MDSS</p>
+      <p class="title has-text-black">What is Analytics?</p>
+      <p>Analytics was started as a fun hackathon project which turned into a KPI tool for our team. Analytics is a microservice running within MDSS that reports the usage of scripts, processing times, errors etc. This helps us build some really cool dashboards to track our performance and tools. It even helps us catch bugs before user reports them.</p>
+    </div>
+    <div class="tile is-child box">
+      <p class="title has-text-black">Tech Stack</p>
+      <p>Python, Segment, Amazon Red-shift clusters, unittest, PyUnit, Github, Docker, Looker.</p>
     </div>
   </div>
-  <div class="tile is-parent">
-    <div class="tile is-child box">
-      <p class="title has-text-link">Analytics</p>
-    </div>
-  </div>
-  <div class="tile is-parent">
-    <div class="tile is-child box">
-      <p class="title has-text-link">Mechanic App</p>
-    </div>
-  </div>
+  <div class="notification is-danger">
+  <p><b>Sorry no images for this one due to privacy issues :( . Here is a cute cat picture though :) . </b></p> </br>
+   <figure class="image is-480x480">
+            <%= image_tag ("cat.png")%>
+      </figure>
+</div>
 </div>
   </div>
 </section>
