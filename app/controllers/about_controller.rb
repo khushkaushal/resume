@@ -6,7 +6,7 @@ class AboutController < ApplicationController
   end
 
   def pdf
-    pdf_filename = File.join(Rails.root, "tmp/Resume.pdf")
+    pdf_filename = File.join(Rails.root, "public/Resume.pdf")
     send_file(pdf_filename, :filename => "Resume.pdf", :disposition => 'inline', :type => "application/pdf")
   end
   
