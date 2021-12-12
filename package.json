@@ -18,7 +18,6 @@
     "webpack-dev-server": "^3"
   },
   "main": "index.js",
-  "type":"module",
   "repository": "git@github-khushkaushal:khushkaushal/resume.git",
   "author": "khushkaushal <khushkaushal62@yahoo.com>",
   "license": "MIT",
